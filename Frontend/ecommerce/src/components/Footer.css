@@ -1,0 +1,27 @@
+.bg-custom {
+    background: linear-gradient(to top left, #704270, #000000); /* Gradient background from bottom to top left */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .social-icon {
+    width: 24px; /* Ensure icons are the same size */
+    height: 24px; /* Ensure icons are the same size */
+    margin: 0 10px; /* Spacing between icons */
+  }
+  
+  .footer .list-inline-item a {
+    color: #fff; /* White color for social media links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .footer .list-inline-item a:hover {
+    opacity: 0.8; /* Slight opacity change on hover */
+  }
+  
+  .footer h5, .footer p {
+    margin-bottom: 20px; /* Space between elements */
+  }
+  

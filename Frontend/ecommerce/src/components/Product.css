@@ -1,0 +1,29 @@
+/* Product.css */
+.product-card {
+    height: 400px; /* Example fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product-card img {
+    height: 200px; /* Adjust based on your needs */
+    object-fit: cover; /* This makes the image cover the area, might crop it */
+  }
+  
+  .product-title {
+    height: 50px; /* Ensures title area is consistent, adjust as needed */
+    overflow: hidden; /* Prevents long titles from breaking layout */
+  }
+  
+  .product-rating {
+    height: 30px; /* Ensures rating area is consistent */
+  }
+
+  .product-card {
+    transition: transform 0.2s; /* Animation to make the transform smooth */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card */
+  }

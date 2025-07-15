@@ -1,0 +1,34 @@
+.image-section {
+  width: 100%;
+  height: 70vh; /* Full viewport height */
+  overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.title-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire section without distortion */
+}
+
+.product-section {
+  padding-top: 50px; /* Adjust padding as needed */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.product-item {
+  animation: fadeInFromLeft 1s ease-out forwards;
+}
+
+@keyframes fadeInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,0 +1,68 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+  background-color: white; /* White background */
+  border-bottom: 2px solid #dee2e6; /* Adds a little contrast */
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Makes the logo look clickable */
+}
+
+.nav-logo img {
+  width: 60px; /* Reduced logo size */
+}
+
+.navbar-brand, .nav-link {
+  color: #495057 !important; /* Darker text for better readability */
+  border: none; /* Remove button outline */
+  outline: none; /* Remove button outline */
+  background-color: transparent !important; /* Transparent background */
+}
+
+.navbar-toggler {
+  border-color: #dee2e6; /* Match the border color */
+}
+
+.container-fluid {
+  text-align: center; /* Center align the navbar contents */
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: center; /* Center the nav items */
+}
+
+.navbar-nav.ms-auto {
+  margin-left: auto; /* Pushes the login and cart buttons to the right */
+}
+
+.navbar-nav .nav-link {
+  border: none; /* Remove button outline */
+  outline: none; /* Remove button outline */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #704270 !important; /* Change color on hover */
+  transform: scale(1.1); /* Enlarge text on hover */
+  transition: transform 0.2s, color 0.2s; /* Smooth transition */
+}
+
+.dropdown-menu {
+  text-align: center; /* Center align dropdown items */
+}
+
+.cart-count {
+  font-size: 0.75rem;
+  line-height: 1;
+  display: inline-block;
+  min-width: 1.25em;
+  padding: 0.5em;
+  color: white;
+  background: red;
+  border-radius: 50%;
+  text-align: center;
+}
